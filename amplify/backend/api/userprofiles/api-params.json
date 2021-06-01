@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/users",
+      "lambdaFunction": "userprofiles",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/users"
+    }
+  ],
+  "resourceName": "userprofiles",
+  "apiName": "userprofiles",
+  "functionArns": [
+    {
+      "lambdaFunction": "userprofiles"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-usingawsamplify-dev-70208-authRole",
+    "unAuthRoleName": "amplify-usingawsamplify-dev-70208-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "userprofiles",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

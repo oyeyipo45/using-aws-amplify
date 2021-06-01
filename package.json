@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/oyeyipo45/using-aws-amplify/issues"
   },
-  "homepage": "https://github.com/oyeyipo45/using-aws-amplify#readme"
+  "homepage": "https://github.com/oyeyipo45/using-aws-amplify#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
