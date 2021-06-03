@@ -10,6 +10,14 @@
       "StackName": "amplify-usingawsamplify-dev-70208",
       "StackId": "arn:aws:cloudformation:us-west-2:665003463171:stack/amplify-usingawsamplify-dev-70208/ebc57620-c29e-11eb-a28f-0a2135651725",
       "AmplifyAppId": "d1biea840pitv6"
+    },
+    "categories": {
+      "function": {
+        "userprofiles": {
+          "deploymentBucketName": "amplify-usingawsamplify-dev-70208-deployment",
+          "s3Key": "amplify-builds/userprofiles-55632f57686246566556-build.zip"
+        }
+      }
     }
   }
 }
